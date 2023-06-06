@@ -1,0 +1,147 @@
+.first{
+    width: 1400px;
+    height: 500px;
+    background-color: #B9E9FC;
+    padding-top: 300px;
+    border:5px solid #4D455D;
+    border-radius: 10px;
+}
+.first > h1{
+    font-family: cursive;
+    font-size: 4em;
+    color: #E96479;
+    text-align: center;
+}
+.first > h2{
+    font-family: cursive;
+    size: 5rem;
+    color: #E96479;
+    text-align: center;
+}
+
+.img1{
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    left: 475px;
+}
+.img2{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    right:100px;
+    border-radius: 50%;
+}
+.img3{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    border-radius: 10%;
+}
+.img4{
+    padding: 20px;
+}
+.img5{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 15%;
+}
+
+.skills1{
+    display: flex;
+    flex-direction: row;
+    width: 725px;
+    background-color: #E96479;
+    margin-left: 325px;
+    gap: 100px;
+    border-radius: 15px;
+}
+.skills2{
+    display: flex;
+    flex-direction: row;
+    width: 725px;
+    background-color: #E96479;
+    margin-left: 325px;
+    gap: 100px;
+    border-radius: 15px;
+}
+.description1{
+    text-align: left;
+    padding: 20px;
+}
+.description2{
+    padding: 20px;
+    text-align: left;
+}
+
+.second{
+    width: 1400px;
+    background-color:  #B9E9FC;
+    border:5px solid #4D455D;
+    border-radius: 10px;
+    padding-top: 100px;
+    text-align: center;
+}
+.profile{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.second > h2{
+    font-size: 2.5rem;
+}
+.second > p{
+    font-size: 1.5rem;
+}
+.dots{
+    color:#4D455D;
+    font-weight: 100;
+}
+.contact{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300x;
+    gap: 20px;
+    margin-left: 375px;
+    
+}
+.contact > *{
+    background-color: #E96479;
+    padding: 20px;
+    border-radius: 10px;
+}
+.grid3{
+    grid-column: span 2;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color:  #B9E9FC;
+    width: 1400px;
+    border:5px solid #4D455D;
+    border-radius: 10px;
+    gap: 30px;
+    justify-content: center;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+}
+.icongit{
+    margin-top: 5px;
+}
+.hello{
+    background-color: #E96479;
+    border-radius: 10px;
+    width: max-content;
+    margin-left: 200px;
+    padding: 20px;
+}
+p{
+    font-size: 1.2rem;
+}
